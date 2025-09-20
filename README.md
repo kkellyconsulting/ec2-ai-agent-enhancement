@@ -35,8 +35,14 @@
 
 ## DevOps AI Process Instructions 
 
-#### 1. Log into the ServiceNow-company.com system 
-#### 2. 
-#### 3. 
+#### 1. From incident, select the stars in the ribbon to launch Now assist panel 
+#### 2. Enter "Help remediate INC number" or "Bring back instance instance number" 
+#### 3. Follow the AI prompt questions
+#### 4. Sucessfully turn back on EC2 Intance. 
 
 ## DevOps Manual Process Instructions
+#### 1. Log into the ServiceNow-company.com system 
+#### 2. Select All from the filter navigator
+#### 3. Search EC2 Instance > EC2 Instances
+#### 4. Open the application
+#### 5. Select “Trigger EC2 Remediation” button. 

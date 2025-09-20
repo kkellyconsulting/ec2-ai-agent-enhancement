@@ -24,7 +24,7 @@
 ![Diagram](Diagram.png)
 
 
-![Diagram]()
+![Diagram](Diagram (1).png) 
 
 
 ## Optimization

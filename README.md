@@ -10,9 +10,12 @@
 
 ## Implementation Steps
 
-### When implementing the AI agent there was some difficulty with only utilizing one tool when attempting to look up the incident. Thus after ample testing it was determined that an additional skill was needed to look up incident table records to be able to successfully pass both testing scenarios. 
-####1. Look up by incident records 
-####2. Remediating intance 
+### When implementing the AI agent there was some difficulty with only utilizing one tool when attempting to look up the incident. Thus after ample testing it was determined that an additional skill was needed to look up incident table records to be able to successfully pass both testing scenarios. I belive the issue had to do with cross-scope application access with being in a custom scope application, even though I attempted to use a standard Look up on the incident table for the records the AI agent continually did not pull any records in return. After quite a bit of troubleshooting I realized that using a search retreval tool, gave me access to the data. Thus I created a tool call "Incident Record Information Retrival". Below are the steps taken: 
+
+#### 1. Look up by incident records
+#### 2. If unable to look up the incident record untilize the "Incident record information retrival" 
+#### 2. OR if intance ID number is provided search by instance ID
+#### 4. With the information provided then utilize the RemediationHelperTool 
 
 ![Diagram]()
 
